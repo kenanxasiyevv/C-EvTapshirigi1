@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            var Arraytasks = new ArrayTasks();
-
-            var mass = Arraytasks.SquareRoot();
-
+             var arraytasks = new ArrayTasks();
+            
+            arraytasks.Print(arraytasks.SquareRootElements(arraytasks.EnterArray()));
           
         }
     }
